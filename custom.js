@@ -85,13 +85,6 @@ $(document).ready(function () {
 
             $(this).addClass("customized");
          }
-
-         if ($(this).hasClass("customized")) {
-            var imageHeight = $(this).find(".home-list-image-container-desktop .home-list-image").first().prop('naturalHeight');
-            if (imageHeight < 440) {
-               $(this).addClass("home-list-with-landscape");
-            }
-         }
       });
    }
 
